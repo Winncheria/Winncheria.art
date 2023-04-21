@@ -1,0 +1,63 @@
+header {
+    background-color: floralwhite;
+    padding: 10px;
+}
+
+body {
+    background-color: lavender;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul p {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+    color: floralwhite;
+    text-decoration: none;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.picture {
+    flex-basis: 300px;
+    display: flex;
+}
+
+.picture img {
+    width: 300px;
+    height: 250px;
+
+}
+
+.column {
+    flex-grow: 1;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 16px;
+    color: mediumpurple;
+}
+
+
+footer {
+    background-color: mediumpurple;
+    color: black;
+    padding: 10px;
+}
