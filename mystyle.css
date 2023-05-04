@@ -7,6 +7,10 @@ body {
     background-color: lavender;
 }
 
+li {
+    margin: 10px 10px;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
