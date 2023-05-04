@@ -13,8 +13,7 @@ h2 {
 
 }
 
-body {
-    background-color: blanchedalmond;
+body {background-color: blanchedalmond;
     background-image: url("https://ih1.redbubble.net/image.1309251054.0283/aps,504x498,small,transparent-pad,600x600,f8f8f8.jpg");
     background-size: auto;
 }
@@ -22,7 +21,6 @@ body {
 
 div p {
     font-size: 150%;
-    color: purple;
     display: flex;
     justify-content: center;
     font-weight: bolder;
@@ -34,8 +32,21 @@ div p {
     flex-wrap: nowrap;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: darkgrey;
+div.a {
+    color: deeppink;
+    text-indent: 50px;
+    text-shadow: 2px 1px black;
+}
+
+div.b {
+    text-indent: 50px;
+    color: darkgreen;
+    text-shadow: 3px 1px darkorange;
+    
+}
+
+div.c {
+    text-indent: 50px;
+    color: deepskyblue;
+    text-shadow: 2px 1px black
 }
