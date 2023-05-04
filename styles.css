@@ -1,0 +1,35 @@
+body h1 {
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+    font-size: 235%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: lightseagreen;
+    font-size: 200%;
+
+}
+
+body {
+    background-color: blanchedalmond;
+    background-image: url("https://ih1.redbubble.net/image.1309251054.0283/aps,504x498,small,transparent-pad,600x600,f8f8f8.jpg");
+    background-size: auto;
+}
+
+
+div p {
+    font-size: 150%;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
